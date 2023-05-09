@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1080px) {
+    img#menu {
+        display: none;
+    }
+    header > nav {
+        display: inline;
+        height: auto;
+    }
+
+    header > nav > ul {
+       text-align: right;
+       width: 85vw;
+       height: auto;
+       padding: 15px; 
+    }
+    header > nav > ul > li {
+        display: inline;
+    }
+}
